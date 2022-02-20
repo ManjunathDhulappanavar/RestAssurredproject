@@ -43,7 +43,6 @@ public class RestAsssuredTestNgGET {  ///we can use jason path finder for readin
                          .body("data[1].id",equalTo(8))
                          .log().all();
     }
-
     @Test
     public void test_3(){
         baseURI="https://reqres.in/api";  //impo
@@ -54,6 +53,8 @@ public class RestAsssuredTestNgGET {  ///we can use jason path finder for readin
                 .body("data.first_name",hasItems("George","Rachel"))
                 .log().all();
     }
+
+    //practice
 
 
 
