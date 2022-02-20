@@ -30,9 +30,6 @@ public class RestAssuredTestNgPOST {
                                      //add JSON.simple dependency to pom
         System.out.println(map);
 
-
-        //Stash123
-
 //        baseURI="https://reqres.in/api";  //impo
 //        given()
 //                .get("/users?page=2")
