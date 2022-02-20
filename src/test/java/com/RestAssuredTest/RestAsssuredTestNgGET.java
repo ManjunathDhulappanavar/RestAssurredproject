@@ -32,7 +32,7 @@ public class RestAsssuredTestNgGET {  ///we can use jason path finder for readin
         Assert.assertEquals(statusCode,200);
     }
 
-
+    //these code taken from official website of rest assured git
     @Test
     public void test_2(){
         baseURI="https://reqres.in/api";  //impo
