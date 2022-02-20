@@ -29,9 +29,7 @@ public class RestAssuredTestNgPOST {
         map.put("job","teacher");   //convert String to json
                                      //add JSON.simple dependency to pom
         System.out.println(map);
-
-
-
+        //create pull request
 
 //        baseURI="https://reqres.in/api";  //impo
 //        given()
