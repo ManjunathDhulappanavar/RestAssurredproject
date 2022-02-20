@@ -53,6 +53,7 @@ public class RestAsssuredTestNgGET {  ///we can use jason path finder for readin
                 .body("data.first_name",hasItems("George","Rachel"))
                 .log().all();
     }
+    //practice
 
 
 
