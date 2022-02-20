@@ -33,8 +33,7 @@ public class RestAsssuredTestNgGET {  ///we can use jason path finder for readin
     }
 
     //these code taken from official website of rest assured git
-//stash 12
-    //nju
+
     @Test
     public void test_2(){
         baseURI="https://reqres.in/api";  //impo
